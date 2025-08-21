@@ -7,10 +7,17 @@ Incluye entrenamiento (LightGBM + Optuna + calibración), **umbral por costo**, 
 Ejecuta local: `streamlit run app.py`  
 *https://credit-risk-pro-iozjk4hsjjv84eoshppcci.streamlit.app/*
 
-## 📈 Resultados
-AUC/AP 
- 📊 Métricas (JSON)
-- [Ver `reports/metrics.json`](reports/metrics.json)
+## 📈 Resultados (del último entrenamiento)
+
+| Métrica        | Valor      |
+|----------------|------------|
+| AUC            | 0.7735     |
+| AP             | 0.5439     |
+| Umbral óptimo  | 0.15       |
+| Costo óptimo   | 3369.0     |
+
+_Fuente: [`reports/metrics.json`](reports/metrics.json)_
+
    
 Imágenes :
 
