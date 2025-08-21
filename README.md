@@ -8,7 +8,10 @@ Ejecuta local: `streamlit run app.py`
 *https://credit-risk-pro-iozjk4hsjjv84eoshppcci.streamlit.app/*
 
 ## 📈 Resultados
-AUC/AP en `reports/metrics.json`.  
+AUC/AP 
+ 📊 Métricas (JSON)
+- [Ver `reports/metrics.json`](reports/metrics.json)
+   
 Imágenes :
 
 ![ROC](docs/roc_curve.png)
