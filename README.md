@@ -40,3 +40,8 @@ python src/train.py --cost-fp 1.0 --cost-fn 5.0 --n-trials 30
 
 # Predicción por lote
 python src/predict.py --in data/processed/X_test.parquet --out predicciones.csv
+
+![ROC](docs/roc_curve.png)
+![PR](docs/pr_curve.png)
+![SHAP Summary](docs/shap_summary.png)
+![SHAP Bar](docs/shap_bar.png)
