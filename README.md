@@ -28,7 +28,7 @@ Imágenes (si las incluyes en `docs/`):
 
 
 ## 🧪 Reproducibilidad (scripts)
-```bash
+
 # Descargar dataset (UCI) a data/raw
 python src/download_kaggle.py --dataset uciml/default-of-credit-card-clients-dataset --out data/raw --unzip
 
